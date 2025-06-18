@@ -1,0 +1,53 @@
+/* SeattlePage.css */
+
+.container {
+    max-width: 600px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+    background-color: #f9f9f9; /* Background color */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+h2 {
+    text-align: center; /* Center the subheading */
+}
+
+select,
+input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Space between elements */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    background-color: #9B4F16; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background-color: #9B4F16; /* Darker green on hover */
+}
+
+ul {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin: 5px 0; /* Space between list items */
+    text-align: center; /* Center list items */
+}
+

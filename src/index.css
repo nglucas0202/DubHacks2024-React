@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Arial Black', sans-serif; /* Changed to a bolder font family */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: linear-gradient(#e38842, #3f271b);
+  /* background-color: #9c1010; */
+  /* background-size: 500px; This makes sure the image covers the whole page */
+  /* background-position: center; Centers the image */
+  overflow: hidden; /* Prevents both vertical and horizontal scrolling */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
