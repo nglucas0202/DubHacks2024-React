@@ -6,6 +6,8 @@ import user_icon from '../Assets/user_icon.png';
 import password_icon from '../Assets/password_icon.png';
 import man from '../Assets/man.png';
 
+const BASE_URL = process.env.REACT_APP_API_URL;
+
 const LoginSignup = ({ setAppUserName }) => {
     const [action, setAction] = useState("Sign Up");
     const [username, setUsername] = useState('');
@@ -13,12 +15,12 @@ const LoginSignup = ({ setAppUserName }) => {
     const [message, setMessage] = useState(''); // State to track messages
     const navigate = useNavigate();
 
-    const handleSubmit = async (actionType: string) => {
+    const handleSubmit = async (actionType) => {
         if (username.trim() === '' || password.trim() === '') return;
 
         try {
             const endpoint = actionType === "Sign Up" ? '/create_user' : '/login';
-            const response = await fetch(`http://127.0.0.1:5000${endpoint}`, {
+            const response = await fetch(`${BASE_URL}${endpoint}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

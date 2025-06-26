@@ -1,15 +1,16 @@
 .container {
+    padding: 20px; /* Added padding for a cleaner look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 50px; /* Rounded corners for smoother appearance */
+    position: relative; /* Set relative positioning for the container */
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 100px;
-    width: 600px;
-    background: #ffffff; /* White background for container */
-    padding: 20px; /* Added padding for a cleaner look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 50px; /* Rounded corners for smoother appearance */
-    align-items: flex-start; /* Align items to the left */
-    position: relative; /* Set relative positioning for the container */
+    width: 1000px; /* Increased width */
+    background: #DD7E37;
+    padding-bottom: 30px;
+    align-items: center;
 }
 
 .man-image {
