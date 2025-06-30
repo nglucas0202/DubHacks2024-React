@@ -9,7 +9,7 @@ import man from '../Assets/man.png';
 const BASE_URL = process.env.REACT_APP_API_URL;
 
 const LoginSignup = ({ setAppUserName }) => {
-    const [action, setAction] = useState("Sign Up");
+    const [action, setAction] = useState("Login");
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [message, setMessage] = useState(''); // State to track messages
